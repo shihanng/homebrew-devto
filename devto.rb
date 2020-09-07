@@ -2,16 +2,16 @@
 class Devto < Formula
   desc "CLI tool to publish article to https://dev.to/"
   homepage "https://github.com/shihanng/devto"
-  version "0.0.5"
+  version "0.0.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/shihanng/devto/releases/download/v0.0.5/devto_darwin_amd64.tar.gz"
-    sha256 "c33d6432c83c58c73194621a3b8170efc1b59a4cd325d98a27b4d696e386e8ef"
+    url "https://github.com/shihanng/devto/releases/download/v0.0.6/devto_darwin_amd64.tar.gz"
+    sha256 "b4017f3535a4af9e523eef2214c86dbde779300538eb569884c89650f2904534"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/shihanng/devto/releases/download/v0.0.5/devto_linux_amd64.tar.gz"
-      sha256 "ea61539cb8fb0efce583d716a62171fa80be6796e6970743bf5b619ce8416c6a"
+      url "https://github.com/shihanng/devto/releases/download/v0.0.6/devto_linux_amd64.tar.gz"
+      sha256 "6e1773906999f150c574053876a12e8c77fec2d27b554ce8c0eb70750c455789"
     end
   end
 
